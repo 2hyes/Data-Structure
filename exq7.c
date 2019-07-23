@@ -5,7 +5,7 @@ int main(void) {
 	int sum = 0;
 	int n;
 
-	printf("nÀÇ °ª : ");
+	printf("nì˜ ê°’ : ");
 	scanf("%d", &n);
 
 	for (i; i <= n; i++) {
