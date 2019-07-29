@@ -41,9 +41,9 @@ int main(void) {
 //// Q14 ////
 int main(void) {
 	int n, i, j;
-	printf("»ç°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.\n");
+	printf("ì‚¬ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.\n");
 	do {
-		printf("ÀÔ·ÂÇÒ ¼ö : ");
+		printf("ì…ë ¥í•  ìˆ˜ : ");
 		scanf("%d", &n);
 	} while (n <= 0);
 
@@ -59,11 +59,11 @@ int main(void) {
 //// Q15 ////
 int main(void) {
 	int height, width, i, j;
-	printf("Á÷»ç°¢ÇüÀ» Ãâ·ÂÇÕ´Ï´Ù.\n");
+	printf("ì§ì‚¬ê°í˜•ì„ ì¶œë ¥í•©ë‹ˆë‹¤.\n");
 	do {
-		printf("³ôÀÌ : ");
+		printf("ë†’ì´ : ");
 		scanf("%d", &height);
-		printf("³Êºñ : ");
+		printf("ë„ˆë¹„ : ");
 		scanf("%d", &width);
 	} while (height <= 0 || width <= 0);
 
