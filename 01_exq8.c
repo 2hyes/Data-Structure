@@ -3,11 +3,11 @@ int gauss(int);
 
 int main(void) {
 	int n, sum;
-	printf("nÀÇ °ª: ");
+	printf("nì˜ ê°’ : ");
 	scanf("%d", &n);
 
 	sum = gauss(n);
-	printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %d.\n", n, sum);
+	printf("1ë¶€í„° nê¹Œì§€ì˜ ì •ìˆ˜í•©ì€ %d.\n", n, sum);
 }
 
 int gauss(int n) {
