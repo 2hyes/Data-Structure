@@ -6,7 +6,7 @@ int max4(int, int, int, int);
 
 int main(void) {
 	int a, b, c, d;
-	printf("³× Á¤¼ö  ÀÔ·ÂÇÏ½Ã¿À.");
+	printf("ë„¤ ì •ìˆ˜  ìž…ë ¥í•˜ì‹œì˜¤.");
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 
 	printf("max = %d", max4(a, b, c, d));
@@ -28,7 +28,7 @@ int max4(int a, int b, int c, int d) {
 int min3(int, int, int);
 int main(void) {
 	int a, b, c;
-	printf("¼¼ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À\n");
+	printf("ì„¸ ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤\n");
 	scanf("%d %d %d", &a, &b, &c);
 
 	printf("min = %d\n", min3(a, b, c));
@@ -48,7 +48,7 @@ int min3(int a, int b, int c) {
 int min4(int, int, int, int);
 int main(void) {
 	int a, b, c, d;
-	printf("³× Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À\n");
+	printf("ë„¤ ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤\n");
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 
 	printf("min = %d\n", min4(a, b, c, d));
