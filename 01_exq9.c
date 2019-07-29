@@ -4,7 +4,7 @@ void sumof(int, int);
 
 int main(void) {
 	int start, end;
-	printf("a¿Í bÀÇ °ª: ");
+	printf("aì™€ bì˜ ê°’: ");
 	scanf("%d %d", &start, &end);
 
 	sumof(start, end);
@@ -22,5 +22,5 @@ void sumof(int a, int b) {
 			sum += i;
 	}
 	
-	printf("%dºÎÅÍ %d±îÁöÀÇ ÇÕÀº %d.\n", a, b, sum);
+	printf("%dì—ì„œ %dê¹Œì§€ì˜ í•©ì€ %d.\n", a, b, sum);
 }
