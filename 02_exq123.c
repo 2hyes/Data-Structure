@@ -10,17 +10,17 @@ double aveof(const int, int);
 int main(void) {
 	int i;
 	int* height;
-	int number; //»ç¶÷¼ö
-	printf("»ç¶÷¼ö : ");
+	int number; //ì‚¬ëŒìˆ˜
+	printf("ì‚¬ëŒìˆ˜ : ");
 	scanf("%d", &number);
 	height = calloc(number, sizeof(int));
-	printf("%d¸íÀÇ Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n", number);
+	printf("%dëª…ì˜ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", number);
 
 	for (i = 0; i < number; i++)
 		scanf("%d", &height[i]);
-	printf("Å°ÀÇ ÃÖ¼Ú°ªÀº %dÀÔ´Ï´Ù.\n", minof(height, number));
-	printf("Å°ÀÇ ÇÕÀº %dÀÔ´Ï´Ù.\n", sumof(height, number));
-	printf("Å°ÀÇ Æò±ÕÀº %fÀÔ´Ï´Ù.\n", aveof(height, number));
+	printf("í‚¤ì˜ ìµœì†Ÿê°’ì€ %dì…ë‹ˆë‹¤.\n", minof(height, number));
+	printf("í‚¤ì˜ í•©ì€ %dì…ë‹ˆë‹¤.\n", sumof(height, number));
+	printf("í‚¤ì˜ í‰ê· ì€ %fì…ë‹ˆë‹¤.\n", aveof(height, number));
 	free(height);
 }
 
@@ -32,12 +32,14 @@ int minof(const int a[], int n) {
 	}
 	return min;
 }
+
 int sumof(const int a[], int n) {
 	int i, sum = 0;
 	for (i = 0; i < n; i++)
 		sum += a[i];
 	return sum;
 }
+
 double aveof(const int a[], int n) {
 	int i;
 	double sum = 0;
